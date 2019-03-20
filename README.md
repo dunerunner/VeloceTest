@@ -12,7 +12,7 @@ npm install -g @angular/cli
 and then in project directory use
 
 ```sh
-ng install
+npm install
 ```
 
 ```sh
