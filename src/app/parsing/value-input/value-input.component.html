@@ -1,0 +1,6 @@
+<div class="tag-input">
+    <label>{{label}}</label>
+    <input type="text"
+           [(ngModel)]="inputModel"
+           (ngModelChange)="inputModelChange.emit(inputModel)" />
+</div>

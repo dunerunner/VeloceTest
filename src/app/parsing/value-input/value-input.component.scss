@@ -1,0 +1,7 @@
+.tag-input {
+  white-space: nowrap;
+
+  & > label {
+    text-transform: capitalize;
+  }
+}
