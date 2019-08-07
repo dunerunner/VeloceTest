@@ -36,7 +36,7 @@ export class Task1Component implements OnInit {
     displayResult(): void {
         this.results = [];
         this.foundTags.forEach(tag => {
-           const resultTag = tag.tag.split('><').join(`><ng-container>${tag.value}</ng-container><`);
+            const resultTag = tag.tag.split('><').join(`><ng-container>${tag.value}</ng-container><`);
             this.results.push(resultTag);
         });
     }
